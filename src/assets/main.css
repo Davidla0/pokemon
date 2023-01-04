@@ -1,0 +1,27 @@
+@import './base.css';
+@import './_typography.scss';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: "pokemon-solid";
+  background: #fecd00;
+
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+
+}
+
+b {
+  font-weight: bold;
+}
